@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+/*Background Images*/
+.aboutMe {
+    box-sizing: border-box;
+    background-image: url("./img/Bg/hero3.jpg");
+    /* background-size: cover; */
+}
+.projects{
+    box-sizing: border-box;
+    background-image: url("./img/Bg/projectBg4.jpg");
+    background-size: cover;
+}
+.resume{
+    box-sizing: border-box;
+    background-image: url("./img/Bg/resumeBg5.jpg");
+    background-size: cover;
+    
+}
+.contact{
+    background-image: url("./img/Bg/contactBg1.jpg");
+    background-size: cover;
+
+
+}
+
+/*Nav Bar*/
+
+li a{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-size:22px;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    text-transform: lowercase;
+    color:black;
+
+} 
+ nav li{
+    display: inline-block;
+}
+.nav li a:hover{
+    color: grey;
+}
+   
+/*Text*/
+.hero-txt{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center; 
+    margin: 35px 17%;
+    padding: 40px;
+    -webkit-animation: fadein 3s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+
+    
+}
+.name {
+      font-size: 50px;
+    position: relative;
+    -webkit-animation: fadein 3s;
+  }
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.face{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+    padding-top: 0px;
+    
+}
+
+
+/*Projects*/
+.btn{
+    font-family: 'Dosis', sans-serif; 
+}
+
+
+
+/*Resume*/
+.resume-pic{
+    border: 5px solid #555;
+   max-height:800px; 
+   max-width: 800px; 
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Contact*/
+h1, h2, h3, p {
+    font-family: 'Dosis', sans-serif; 
+    color: black;
+}
+.contact-me {
+    text-align: center;
+   float: left;
+   padding-left: 20%;
+   margin-top: 100px;
+   margin-bottom: 170px;
+   margin-left: 70px;
+   -webkit-animation: fadein 3s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+    
+
+.contact-img{
+    border-radius: 50%;
+    position: absolute;
+    float: right;
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 25%;
+    margin-left: 60%;
+   
+}
+.cont-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+}
+
+ /*Footer*/
+ footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+ }
+.links{
+    text-align: center;
+    margin: 30px auto 20px auto;
+    
+ }
+.fab, .fas{
+    color: black;
+    font-size: 35px;
+    padding: 5px;
+    
+}
+.fab:hover{
+    color: grey;
+}
+.fas:hover{
+    color: grey;
+}
